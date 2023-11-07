@@ -14,7 +14,7 @@ var NIGeoJson = "https://raw.githubusercontent.com/martinjc/UK-GeoJSON/master/js
 // Create an SVG container
 var svg = d3.select("body").append("svg")
   .attr("width", width)
-  .attr("height", height);
+  .attr("height", height); 
 
 // Create a projection (here, using Mercator projection)
 var projection = d3.geoMercator()
